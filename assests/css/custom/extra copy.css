@@ -1,0 +1,119 @@
+header.bgImage{
+    background-image: url(../../img/header.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+header.bgImage .bgImage-sub{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: "Roboto Slab",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header.bgImage .bgImage-heading{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 550;
+    margin-bottom: 2rem;
+    font-family: "Montserrat",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  } */
+  /* navbar start */
+  #mainNavbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: #212529; */
+    background-color: transparent;
+    transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    -webkit-transition:padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out ;
+    -moz-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    -ms-transition:padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    -o-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+}
+
+#logo {
+    color: #de3545;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+}
+#mainNavbar .navbar-nav .nav-item .nav-link{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: .06em;
+    
+}
+#mainNavbar .navbar-nav .nav-item .nav-link:hover,
+#mainNavbar .navbar-nav .nav-item .nav-link.active{
+    color: #b5b5b5;
+}
+#mainNavbar.navbar-scroll{
+    background-color: #212529 !important;
+    opacity: .997;
+    transition: background-color 0.8s ease-in-out;
+}
+#mainNavbar.navbar-scroll #logo {
+    font-size: 1.35rem;
+}
+/* navbar end */
+
+@media (max-width:767.98px) {
+    header.bgImage .bgImage-sub{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    header.bgImage .bgImage-heading{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+}
+/*lg devices under*/
+@media (max-width:991.98px) {
+    header.bgImage{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+    #mainNavbar .navbar-nav .nav-item .nav-link{
+        color: #212529;
+    }
+}
+@media (min-width:992px) {
+    header.bgImage{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    #mainNavbar {
+        padding-top: .9rem;
+        padding-bottom: .9rem;
+        border: none;
+        background-color: transparent;
+        transition: background-color 0.8s ease-in-out;
+        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+        -webkit-transition:padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out ;
+        -moz-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+        -ms-transition:padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+        -o-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    }
+    #mainNavbar .navbar-brand{
+        font-size: 1.7rem;
+        transition: font-size 0.5s ease-in-out;
+        -webkit-transition:font-size 0.5s ease-in-out ;
+        -moz-transition: font-size 0.5s ease-in-out;
+        -ms-transition:font-size 0.5s ease-in-out;
+        -o-transition: font-size 0.5s ease-in-out;
+    }
+    #mainNavbar .navbar-nav .nav-item{
+        margin-right: 1rem;
+    }#mainNavbar .navbar-nav .nav-item:last-child{
+        margin-right: 0;
+    }
+}
