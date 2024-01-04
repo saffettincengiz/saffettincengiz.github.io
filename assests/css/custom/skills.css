@@ -181,7 +181,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @-moz-keyframes progress-css {
@@ -189,7 +189,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @keyframes progress-css {
@@ -197,7 +197,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @-webkit-keyframes progress-angular {
@@ -229,7 +229,7 @@
       width: 0%;
     }
     100% {
-      width: 65%;
+      width: 85%;
     }
   }
   @-moz-keyframes progress-js {
@@ -237,7 +237,7 @@
       width: 0%;
     }
     100% {
-      width: 65%;
+      width: 85%;
     }
   }
   @keyframes progress-js {
@@ -245,7 +245,7 @@
       width: 0%;
     }
     100% {
-      width: 65%;
+      width: 85%;
     }
   }
   @-webkit-keyframes progress-php {
@@ -253,7 +253,7 @@
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 90%;
     }
   }
   @-moz-keyframes progress-php {
@@ -261,7 +261,7 @@
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 90%;
     }
   }
   @keyframes progress-php {
@@ -269,7 +269,7 @@
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 90%;
     }
   }
   @-webkit-keyframes progress-c-sharp {
@@ -301,7 +301,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @-moz-keyframes progress-mysql {
@@ -309,7 +309,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @keyframes progress-mysql {
@@ -317,7 +317,7 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 90%;
     }
   }
   @-webkit-keyframes progress-asp {
@@ -349,7 +349,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 99%;
     }
   }
   @-moz-keyframes progress-bootstrap {
@@ -357,7 +357,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 99%;
     }
   }
   @keyframes progress-bootstrap {
@@ -365,7 +365,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 99%;
     }
   }
   @-webkit-keyframes progress-jquery {
@@ -373,7 +373,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 85%;
     }
   }
   @-moz-keyframes progress-jquery {
@@ -381,7 +381,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 85%;
     }
   }
   @keyframes progress-jquery {
@@ -389,7 +389,7 @@
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 85%;
     }
   }
 /*skills div end*/
